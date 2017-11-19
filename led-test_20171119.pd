@@ -1,0 +1,5 @@
+#N canvas 32 94 1723 924 10;
+#X obj 101 308 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 105 433 led-gpio23_new;
+#X connect 0 0 1 0;
