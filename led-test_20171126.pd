@@ -1,4 +1,4 @@
-#N canvas 338 190 744 924 10;
+#N canvas 354 200 744 924 10;
 #X obj 183 607 led-gpio23_new;
 #X obj 213 80 adc~;
 #X obj 205 140 env~;
@@ -18,6 +18,9 @@
 #X obj 336 310 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
 -262144 -1 -1 0 256;
 #X obj 261 273 sel 1 0;
+#X obj 95 90 key;
+#X floatatom 90 131 5 0 0 0 - - -, f 5;
+#X obj 44 211 sel 49 50 51 52;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
@@ -37,3 +40,5 @@
 #X connect 14 0 13 0;
 #X connect 15 0 12 1;
 #X connect 16 0 15 0;
+#X connect 17 0 18 0;
+#X connect 18 0 19 0;
